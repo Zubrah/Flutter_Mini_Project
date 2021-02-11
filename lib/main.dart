@@ -19,9 +19,7 @@ class MyApp extends StatelessWidget {
   }
 }
 
-// ignore: must_be_immutable
 class MyHomePage extends StatefulWidget {
-  // ignore: non_constant_identifier_names
   @override
   _MyHomePageState createState() => _MyHomePageState();
 }
@@ -167,7 +165,7 @@ class _MyHomePageState extends State<MyHomePage> {
                               height: 15,
                             ),
                             Text(
-                              "Yoshimas Sushi",
+                              "Pilau Masalade",
                               style: TextStyle(
                                 color: Colors.white,
                                 fontSize: 16,
@@ -264,7 +262,7 @@ class _MyHomePageState extends State<MyHomePage> {
                                   height: 15,
                                 ),
                                 Text(
-                                  "Yoshimas Sushi",
+                                  "Rice Brocolli",
                                   style: TextStyle(
                                     color: Colors.white,
                                     fontSize: 16,
@@ -347,7 +345,7 @@ class _MyHomePageState extends State<MyHomePage> {
                                       height: 15,
                                     ),
                                     Text(
-                                      "Yoshimas Sushi",
+                                      "Ugali Spinachi",
                                       style: TextStyle(
                                         color: Colors.white,
                                         fontSize: 16,
@@ -422,11 +420,11 @@ class _MyHomePageState extends State<MyHomePage> {
                 SizedBox(
                   height: 20,
                 ),
-                placesWidget("hotel1", "Sushi Den"),
+                placesWidget("hotel1", "Ndizi Nyama"),
                 SizedBox(
                   height: 20,
                 ),
-                placesWidget("hotel2", "Hatsuhana Sushi"),
+                placesWidget("hotel2", "Fish Fingers"),
                 SizedBox(
                   height: 20,
                 ),
